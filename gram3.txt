@@ -1,0 +1,3 @@
+<EXPR>::=<TERM> <REST>
+<TERM>::="id"
+<REST>::="+" <EXPR> | "-" <EXPR> | #

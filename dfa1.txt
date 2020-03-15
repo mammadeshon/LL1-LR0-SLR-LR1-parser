@@ -1,0 +1,57 @@
+State 000 {
+	itemSet: 
+		ss->@s                                                  [$]
+		s->@A a                                                 [$]
+		s->@B                                                   [$]
+	MoveMap: 
+		A -> 2
+		B -> 3
+		s -> 1
+}State 001 {
+	itemSet: 
+		ss-> s@                                                 [$]
+	MoveMap: 
+}State 002 {
+	itemSet: 
+		s-> A@a                                                 [$]
+		a->@a C                                                 [$, C, A]
+		a->@a A D                                               [$, C, A]
+		a->@B D                                                 [$, C, A]
+	MoveMap: 
+		a -> 4
+		B -> 5
+}State 003 {
+	itemSet: 
+		s-> B@                                                  [$]
+	MoveMap: 
+}State 004 {
+	itemSet: 
+		s-> A a@                                                [$]
+		a-> a@C                                                 [$, C, A]
+		a-> a@A D                                               [$, C, A]
+	MoveMap: 
+		A -> 7
+		C -> 6
+}State 005 {
+	itemSet: 
+		a-> B@D                                                 [$, C, A]
+	MoveMap: 
+		D -> 8
+}State 006 {
+	itemSet: 
+		a-> a C@                                                [$, C, A]
+	MoveMap: 
+}State 007 {
+	itemSet: 
+		a-> a A@D                                               [$, C, A]
+	MoveMap: 
+		D -> 9
+}State 008 {
+	itemSet: 
+		a-> B D@                                                [$, C, A]
+	MoveMap: 
+}State 009 {
+	itemSet: 
+		a-> a A D@                                              [$, C, A]
+	MoveMap: 
+}

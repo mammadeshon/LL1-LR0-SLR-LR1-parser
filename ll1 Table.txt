@@ -1,0 +1,4 @@
+                              A                             B                             C                             D                             $                             
+ss                            ss-> s                        ss-> s                        null                          null                          null                          
+a                             null                          a-> B D                       null                          null                          null                          
+s                             s-> A a                       s-> B                         null                          null                          null                          

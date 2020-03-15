@@ -1,0 +1,11 @@
+int main(void){
+    if(1>=2){
+        int main;
+        float x;
+    }
+    x=x+1;
+
+}
+bool y(void){
+    int p;
+}\z

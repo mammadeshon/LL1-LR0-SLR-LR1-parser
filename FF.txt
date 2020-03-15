@@ -1,0 +1,8 @@
+First:
+                  ss -> [A, B]
+                   a -> [B]
+                   s -> [A, B]
+Follow:
+                  ss -> [$]
+                   a -> [$, C, A]
+                   s -> [$]
